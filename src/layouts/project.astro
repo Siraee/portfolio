@@ -48,6 +48,11 @@ const { content } = Astro.props;
 				font-weight: 900;
 				text-transform: uppercase;
 				letter-spacing: 0.0625em;
+
+				@media screen and (max-width: 430px) {
+					font-size: var(--f-u5);
+					margin: 10px 0;
+				}
 			}
 
 			.leadIn {
