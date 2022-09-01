@@ -1,0 +1,69 @@
+---
+import MainHead from '../components/MainHead.astro';
+import Footer from '../components/Footer/index.jsx';
+import Nav from '../components/Nav/index.jsx';
+---
+
+<html lang="en">
+	<head>
+		<MainHead title="Siraee • About" description="More about Siraee" />
+		<style lang="scss">
+			.heroImg {
+				max-height: 24rem;
+				object-fit: cover;
+				overflow: hidden;
+
+				img {
+					width: 100%;
+				}
+			}
+
+			.bio {
+				font-size: var(--f-u1);
+				line-height: 2;
+
+				a {
+					color: #4A3AB2;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<Nav />
+		<div class="wrapper">
+			<h1>About Siraee</h1>
+			<div class="heroImg">
+				<img
+					width="1400"
+					height="350"
+					src="https://raw.githubusercontent.com/Siraee/Siraee/main/back.png"
+					alt="Background About Siraee's Website"
+					title="About Siraee"
+				/>
+			</div>
+			<div class="bio wrapper wrapper__readable mt8">
+				<p>
+					That's it, we are finally at the presentation!
+First of all, thank you for coming all the way here and being interested in my projects or my background as a developer!
+				</p>
+				<p>
+					Let me introduce myself, my name is Dylan a.k.a. Siraee and I am 25 years old.
+I am a young junior developer of Belgian nationality. I like Formula 1 very much and I'm passionate about video games. I also like movies and series as well as mangas! I'm a very passionate, motivated and hardworking person.
+				</p>
+				<p>
+					I discovered my passion for development during my first studies in the same field. It's now been 3 years since I started and I really like what I do every day. I started my studies in September 2019 and finished them in May 2022 with a high distinction on my degree.
+				</p>
+				<p>
+					My first studies were back-end oriented, that's why this year I'm starting to study a bit more front-end oriented to be able to be a fullstack developer.
+				</p>
+				<p>
+					I would like to be able to launch myself as a freelance developer and if possible, to collaborate with friends who are in the same field.
+				</p>
+				<p>
+					If you want to contact me, you can do it on {' '} <a href="https://twitter.com/SiraeeDev" target="_blank" rel="nofollow"> Twitter</a> or {' '} <a href="https://github.com/Siraee" target="_blank" rel="nofollow"> Github</a>. I speak French and English.
+				</p>
+			</div>
+		</div>
+		<Footer />
+	</body>
+</html>
