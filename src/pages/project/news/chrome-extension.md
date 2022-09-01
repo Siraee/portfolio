@@ -10,8 +10,6 @@ description: |
   Google Chrome Extension to notify when a Twitch streamer is online
 tags:
   - javascript
-  - extension
-  - google
   - dev
 ---
 

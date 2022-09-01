@@ -11,8 +11,6 @@ description: |
 tags:
   - node.js
   - javascript
-  - bot
-  - twitch
   - dev
 ---
 

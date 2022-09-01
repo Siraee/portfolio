@@ -11,7 +11,6 @@ description: |
 tags:
   - django
   - python
-  - blog
   - dev
 ---
 
